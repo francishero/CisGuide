@@ -1,21 +1,16 @@
-# wechat-weapp-mapdemo
+# CisGuide
 
-微信小程序开发mapdemo，地图导航、marker标注
-
-版本信息：
-微信web开发者工具 `v0.15.152900`
+A wechat mini program to help international students complete their registration at NUIST
 
 
 ## Screenshot
 
 
-![](./image/screenshot1.png)
+![](./image/app-index.jpg)
 
-![](./image/screenshot2.png)
+![](./image/app-about.jpg)
 
-![](./image/navigator.jpg)
 
-![](./image/screenshot-marker.png)
 
 ---
 
