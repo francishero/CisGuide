@@ -1,0 +1,22 @@
+<!--project.wxml-->
+<view class="container project-list">
+<text class="title-hi">Hi! </text>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="title-nuist">Welcome to NUIST! </text>
+    <text class="title">This is a simple app to help you find places you will need to visit to complete your registration: </text>
+    
+  <block wx:for-items="{{projects}}" wx:for-item="project">
+    <text class="project-item">{{project.name}}</text>
+  <!--  <text class="project-git"  bindtap="clickName">{{project.git}}</text> -->
+  </block>
+  <view class="usage">
+  <text>For each place there is a marker on the map.   </text>
+  <text>Click on the place you want to find the directions for.</text>
+  </view>
+  <view class="footer">
+  <text>If you find any bugs or would like to suggest how to improve the app just add my wechat:</text>
+  </view>
+  <text class="wechat">Wechat ID : baheroh</text>
+</view> 
+

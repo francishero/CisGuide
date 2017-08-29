@@ -1,0 +1,71 @@
+.container{
+  background: #7346CD;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.project-item {
+  margin: 10rpx 0 0 5rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #fff;
+}
+.project-git {
+  font-size: 28rpx;
+  color: blue;
+}
+.title{
+  margin: 20rpx 0;
+  padding: 60rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32rpx;
+  line-height: 20px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: #7346CD;
+  background: #FFFFFF;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+.title-hi,.title-nuist{
+  margin: 20rpx 0;
+  padding: 16rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32rpx;
+  line-height: 20px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: #fff;
+  
+}
+.usage{
+  margin: 20rpx 0 ;
+  padding: 60rpx;
+  font-size: 26rpx;
+
+}
+.footer{
+   margin: 20rpx 0;
+  padding: 16rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32rpx;
+  line-height: 20px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: #fff;
+  
+}
+.wechat{
+  font-size: 28rpx;
+  font-weight: bold;
+}
+

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/location/location",
+    "pages/logs/logs",
+    "pages/details/index"
+  ],
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#263440",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/home-icon-2.png",
+      "selectedIconPath": "image/home-icon-3.png",
+      "text": "Home"
+    },{
+      "pagePath": "pages/map/map",
+      "iconPath": "image/map.png",
+      "selectedIconPath": "image/map_active.png",
+      "text": "Map"
+    },{
+      "pagePath": "pages/location/location",
+      "iconPath": "image/navigation-2.png",
+      "selectedIconPath": "image/navigation.png",
+      "text": "Navigation"
+    },{
+      "pagePath": "pages/logs/logs",
+      "iconPath": "image/about-us-1.png",
+      "selectedIconPath": "image/about-us.png",
+      "text": "About Us"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Map",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}
